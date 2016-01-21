@@ -1,3 +1,7 @@
+#note that the functions are called at the very bottom of the page; the functions need to be uncommented in order to run.
+#the way I wrote this, the results of the scrape are added to a sqlite database
+#load new URL's to the function calls at the bottom from the SEC.gov page to try this code as new quarterly reports are done
+
 import urllib
 import re
 import sqlite3
